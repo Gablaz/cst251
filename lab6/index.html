@@ -1,11 +1,58 @@
 <!DOCTYPE html>
-<html>
-<head>
-	<title>Lab X - Subject/Topic</title>
-	<link rel="stylesheet" type="text/css" href="../css/site.css">
-	<link rel="stylesheet" type="text/css" href="css/lab.css">
-</head>
-<body>
+<html lang="en" dir="ltr">
+	<head>
+		<meta charset="utf-8">
+		<title>Lab 5</title>
+	</head>
+		<link rel="stylesheet" type="text/css" href="css/index.css">
+	<body>
+		<div id="content">
+		<h1>Lab 6: More Complicated HTML</h1>
+		<img src="img/lab6_image.jpg" width=250>
 
-</body>
+		<h2>Challange</h2>
+		<p>In this lab we created a form and linked a CSS file. We created an HTML
+			for Lab 6 and styled it with the CSS file.</p>
+
+		<h2>Problems</h2>
+		<p> We got stuck when creating the different input fields, so we referred
+			back to the lecture and Wes’ website for help.  There were a few instances
+			when some of our input fields worked incorrectly due to missing closing
+			tags.</p>
+
+		<h2>Results</h2>
+			<p>We created different input fields, added a CSS style sheet to our Lab 6
+				index, and styled our HTML with a CSS stylesheet. Our Lab 6 pages now
+				have a grey theme applied and checkboxes, a search bar, password input
+				field, and a link back to our home page.</p>
+			</div>
+
+			<div id="output">
+				<form action="https://www.google.com/search" method="GET">
+					<br>
+				<label>Search:<input name="q" type="input"></label>
+					<br>
+				<label>Password:<input name="pw" type="password"></label>
+					<br>
+				<label>Biography:<textarea name="essay"> </textarea></label>
+					<br>
+				<label>Agree:<input name="agree" type="checkbox" value="yes"></label>
+					<br>
+				<label>Time:</label>
+						<input name="time" type="radio" value="day">Day</label>
+						<input name="time" type="radio" value="night">Night</label>
+					<br>
+				<label>Favorite Flower:<select name="Flower">
+            <option selected="" disabled="">Select below</option>
+            <option value="Rose">Rose</option>
+            <option value="Lily">Lily</option>
+						<option value="Daisy">Daisy</option>
+          </select></label>
+					<br>
+				<input type="Submit" value="Submit">
+				</form>
+					<br>
+				<a href="../index.html">Back to Homepage</a>
+			</div>
+	</body>
 </html>
