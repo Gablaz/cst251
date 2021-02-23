@@ -1,0 +1,29 @@
+body  {
+  background-image: linear-gradient(#d75f2e,#fff49f);
+  background-color: orange;
+  margin: 20px;
+  border: solid 5px lightblue;
+  padding: 10px;
+  color: white;
+}
+
+div#title{
+  margin: 10px;
+  padding: 1px 10px;
+  background-color: lightblue;
+  color: #1a3d50;
+}
+
+div#lab7_image {
+  margin: 10px;
+  padding: 1px 10px;
+  border: solid 5px lightblue;
+  float: right;
+}
+
+div#paragraphs {
+  margin: 10px;
+  padding: 1px 10px;
+  background-color: lightblue;
+  color: #1a3d50;
+}
