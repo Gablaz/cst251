@@ -21,7 +21,7 @@ div#lab7_image {
   float: right;
 }
 
-.summary_of_efforts {
+div.summary_of_efforts {
   margin: 10px;
   padding: 1px 10px;
   background-color: lightblue;
