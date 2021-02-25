@@ -1,0 +1,33 @@
+body  {
+  background-color: #a09953;
+  background-image:linear-gradient(#a09953,#f7c596);
+  margin: 20px;
+  border: double 5px white;
+  padding: 10px;
+}
+
+div.title, .summary_of_efforts {
+  margin: 10px;
+  padding: 1px 10px;
+  background-color: #faecd8;
+  border: double 5px white;
+  color: #544f37;
+}
+
+div.summary_of_efforts p {
+  color: #a29a54;
+}
+
+div.lab8_image {
+  margin: 10px;
+  padding: 1px 10px;
+  float: right;
+}
+
+div.lab8_image:hover {
+  transform: scale(1.1);
+}
+
+a {
+    color: #544f37;
+}
