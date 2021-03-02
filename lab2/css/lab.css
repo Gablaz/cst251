@@ -1,0 +1,23 @@
+body  {
+  background-image: linear-gradient(#fde9f0,#e1fcff);
+  background-repeat: no-repeat;
+}
+
+main {
+margin: 20px;
+border: double 5px white;
+padding: 1px 10px;
+color: white;
+}
+
+h1,p {
+  margin: 10px;
+  padding: 1px 10px;
+  border: double 5px white;
+  background-color:rgba(255,255,255,0.5);
+  color: #4b3b54;
+}
+
+a {
+    color: #4b3b54;
+}
