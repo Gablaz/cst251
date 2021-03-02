@@ -1,0 +1,41 @@
+body  {
+  background-image: url("../img/background-image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+main#content {
+  margin: 20px;
+  border: double 5px white;
+  padding: 10px;
+}
+
+h1,article,nav {
+  margin: 10px;
+  width: 65%;
+  padding: 1px 10px;
+  background-color:rgba(255,255,255,0.5);
+  border: double 5px white;
+  color: #633242;
+  font-family: "Garamond", serif;
+}
+
+h1,h2 {
+  width: 50%;
+  margin: auto;
+  text-align: center;
+}
+
+img {
+  width: 365px;
+  height: auto;
+  max-width: 100%;
+  margin: 10px;
+  float: right;
+  border: double 5px white;
+}
+
+a {
+    color:#633242;
+}
