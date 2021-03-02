@@ -1,0 +1,44 @@
+body  {
+  background-image: url("../img/lab9_background-image.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+div#content {
+  margin: 20px;
+  border: double 5px white;
+  padding: 10px;
+}
+
+div.title,article {
+  margin: 10px;
+  padding: 1px 10px;
+  background-color:rgba(255,255,255,0.5);
+  border: double 5px white;
+  color: #446d92;
+}
+
+div.title {
+  width: 50%;
+  margin: auto;
+  text-align: center;
+}
+
+ h1,h2 {
+  color: #1f496f;
+  font-family: "Garamond", serif;
+}
+
+img {
+  width: 275px;
+  height: auto;
+  max-width: 100%;
+  margin: 20px;
+  float: right;
+  border: double 5px white;
+}
+
+a {
+    color: #1f496f;
+}
