@@ -28,8 +28,7 @@ div.title {
 }
 
  h1,h2 {
-  font-family: "Georgia", serif, helvetica, arial, verdana,
-    sans-serif;
+  font-family:'Cormorant SC', serif;
   color: #4a4b60;
   text-transform: uppercase;
   letter-spacing: 5px;
@@ -37,8 +36,7 @@ div.title {
 
 a {
   margin: 10px;
-  font-family: "Georgia", serif, helvetica, arial, verdana,
-    sans-serif;
+  font-family: 'Cormorant SC', serif;
   color: #4a4b60;
   text-transform: uppercase;
   text-decoration: none;
