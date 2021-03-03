@@ -1,0 +1,45 @@
+body  {
+  background-image: url("../img/lab10_background_image.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+div#content {
+  margin: 20px;
+  border: double 5px white;
+  padding: 10px;
+}
+
+div.title,article {
+  margin: 10px;
+  padding: 1px 10px;
+  background-color:rgba(255,255,255,0.5);
+  border: double 5px white;
+  font-family: "Garamond", serif, helvetica, arial, verdana,
+    sans-serif;
+  color: #746675;
+}
+
+div.title {
+  width: 50%;
+  margin: auto;
+  text-align: center;
+}
+
+ h1,h2 {
+  font-family: "Georgia", serif, helvetica, arial, verdana,
+    sans-serif;
+  color: #4a4b60;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+
+a {
+  margin: 10px;
+  font-family: "Georgia", serif, helvetica, arial, verdana,
+    sans-serif;
+  color: #4a4b60;
+  text-transform: uppercase;
+  text-decoration: none;
+}
