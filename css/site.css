@@ -18,7 +18,8 @@ h1,article,nav {
   background-color:rgba(255,255,255,0.5);
   border: double 5px white;
   color: #633242;
-  font-family: "Garamond", serif;
+  font-family: "Garamond", serif, helvetica, arial, verdana,
+    sans-serif;
 }
 
 h1,h2 {
@@ -55,6 +56,8 @@ section {
 
 a {
     color:#633242;
+    font-family: "Garamond", serif, helvetica, arial, verdana,
+      sans-serif;
     text-transform: uppercase;
     text-decoration: none;
 }
