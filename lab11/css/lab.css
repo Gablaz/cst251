@@ -30,8 +30,7 @@ div#title,article,aside,nav#links {
   padding: 10px;
   background-color:rgba(255,255,255,0.5);
   border: double 5px white;
-  font-family: "Garamond", serif, helvetica, arial, verdana,
-    sans-serif;
+  font-family: "Garamond", serif;
   color: #446d92;
 }
 
