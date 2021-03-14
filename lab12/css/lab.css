@@ -84,11 +84,32 @@ img#center-img {
   margin-right: auto;
 }
 
-img#center-both {
+img#center-both,div#bonus-img,div#bonus-img img {
   margin: 0;
   position: absolute;
   top: 50%;
   left: 50%;
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
+}
+
+div#bonus-img-border {
+  margin: 10px 20px;
+  width: 60%;
+  height: 350px;
+  position: relative;
+  display: inline-block;
+}
+
+div#bonus-img {
+  border: double 5px white;
+  overflow: hidden;
+  width: 400px;
+  height: 200px;
+}
+
+div#bonus-img img {
+  width: 100%;
+  height: auto;
+  border: none;
 }
