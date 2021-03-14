@@ -1,5 +1,5 @@
 body  {
-  background-image: url("../img/lab11_background-image.jpg");
+  background-image: url("../img/lab12_background-image.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -26,7 +26,7 @@ div#content {
   width: 60%;
 }
 
-div#title,article,nav#links,div#floated,div#center-horz,div#center-both {
+div#title,article,nav#links,div#floated,div#center-horz,div#center-both,div#bonus-img-border {
   padding: 10px;
   margin: 10px;
   background-color:rgba(255,255,255,0.5);
@@ -84,11 +84,33 @@ img#center-img {
   margin-right: auto;
 }
 
-img#center-both {
+img#center-both,div#bonus-img,div#bonus-img img {
   margin: 0;
   position: absolute;
   top: 50%;
   left: 50%;
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
+}
+
+div#bonus-img-border {
+  margin: 10px 20px;
+  width: 60%;
+  height: 350px;
+  position: relative;
+  display: inline-block;
+}
+
+div#bonus-img {
+  border: double 5px white;
+  overflow: hidden;
+  width: 400px;
+  height: 200px;
+}
+
+div#bonus-img img{
+  width: 100%;
+  height: auto;
+  border: none;
+
 }
