@@ -1,0 +1,57 @@
+body  {
+  background-image: url("../img/lab13_background-image.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+nav#links {
+  top: 5px;
+  margin: 0px 20px;
+}
+
+a  {
+  color: #1f496f;
+  margin: 10px;
+  font-family: "Garamond", serif;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+main#content {
+  margin: 20px;
+  border: double 5px white;
+  padding: 10px;
+}
+
+div#title,article,nav#links {
+  padding: 10px;
+  background-color:rgba(255,255,255,0.5);
+  border: double 5px white;
+  font-family: "Garamond", serif;
+  color: #446d92;
+}
+
+article {
+  margin-top: 10px;
+}
+
+div#title {
+  margin: auto;
+  text-align: center;
+}
+
+ h1,h2 {
+  color: #1f496f;
+  font-family: "Garamond", serif;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+
+iframe#fake {
+    margin-left: 17vw;
+    width: 800px;
+    height: 500px;
+    resize: both;
+    overflow: hidden;
+}
