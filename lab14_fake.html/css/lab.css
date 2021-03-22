@@ -1,0 +1,115 @@
+body  {
+  background-color: #825b56;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  font-family:'Arsenal', serif;
+  padding: 0;
+  margin: 0;
+}
+
+div#fourteen, div#lab14, div#lab_css {
+  position: absolute;
+  display: inline-block;
+  text-align: center;
+  font-size: 3vh;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #6fcab1;
+  z-index: 15;
+}
+
+div#lab14 {
+  width: 100%;
+  top: 10%;
+}
+
+div#fourteen {
+  padding: 5px;
+  border: solid 2px;
+  border-color: #6fcab1;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 10%;
+}
+
+div#lab_css {
+  border: 0px;
+  position: absolute;
+  height: auto;
+  top: 85%;
+  right: 0;
+  transform: rotate(90deg);
+  overflow: hidden;
+}
+
+a#lab_css {
+  color: #6fcab1;
+  text-decoration: none;
+}
+
+div#content {
+  position: absolute;
+  display: inline-block;
+  right: 0px;
+  background-color: #072439;
+  height: 100vh;
+  width: 50%;
+  overflow: scroll;
+  z-index: -10;
+}
+
+nav {
+  position: absolute;
+  display: inline-block;
+  right: 0;
+  top: 10%;
+  z-index: 20;
+}
+
+a#homepage, a#lab {
+  display: inline-block;
+}
+
+a#lab {
+  color: #825b56;
+  font-size: 2.5vh;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+img#icon {
+  width: 2.5vh;
+  height: auto;
+  margin-right: 2vw;
+  margin-left: 1vw;
+}
+
+div#flowers {
+  position: absolute;
+  display: inline-block;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  z-index: -15;
+}
+
+img#flowers {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  opacity: 80%;
+  transform: translate(-50%, -50%);
+
+}
+
+article {
+  font-family:'Crimson Text', serif;
+  font-weight: normal;
+  line-height: 50px;
+  margin: 15%;
+  margin-top: 20%;
+  color:  #825b56;
+}
