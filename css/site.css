@@ -9,6 +9,8 @@ main#content {
   margin: 20px;
   border: double 5px white;
   padding: 10px;
+  border-radius: 25px;
+    box-shadow: 3px 3px 10px white;
 }
 
 h1,article,nav {
@@ -20,6 +22,8 @@ h1,article,nav {
   color: #633242;
   font-family: "Garamond", serif, helvetica, arial, verdana,
     sans-serif;
+  border-radius: 25px;
+    box-shadow: 3px 3px 10px white;
 }
 
 h1,h2 {
@@ -43,6 +47,8 @@ img {
   margin: 10px;
   float: right;
   border: double 5px white;
+  border-radius: 25px;
+  box-shadow: 3px 3px 10px white;
 }
 
 section {
@@ -52,6 +58,8 @@ section {
   border: double 5px white;
   color: #633242;
   font-family: "Garamond", serif;
+  border-radius: 25px;
+  box-shadow: 3px 3px 10px white;
 }
 
 a {
