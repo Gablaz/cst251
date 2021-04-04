@@ -1,5 +1,6 @@
 body  {
-  background-image: url("../img/cherry_petals.png"),url("../img/lab14_background-image.jpg");
+  background-image: url("../img/cherry_petals.png"),
+                    url("../img/lab16_background-image.jpg");
   background-repeat: no-repeat;
   background-size: 50vw, cover;
   background-position: top left, center;
@@ -33,7 +34,6 @@ img {
   z-index: 15;
   animation-name: spin;
   animation-duration: 5s;
-  animation-direction: alternate;
   transition: width 2s;
 }
 
@@ -49,7 +49,7 @@ div#column-text{
   z-index: 10;
 }
 
-main#content {
+div#content {
   display: inline-block;
   margin: 20px;
   border: double 5px white;

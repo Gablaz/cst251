@@ -23,7 +23,7 @@ h1,article,nav {
   font-family: "Garamond", serif, helvetica, arial, verdana,
     sans-serif;
   border-radius: 25px;
-    box-shadow: 3px 3px 10px white;
+  box-shadow: 3px 3px 10px white;
 }
 
 h1,h2 {
@@ -38,6 +38,16 @@ h1 {
     text-align: center;
     width: 50%;
     margin: auto;
+    transition: width 2s;
+}
+
+h1:hover {
+  width: 70%;
+}
+
+@keyframes img-animation {
+  0% {filter: none; transform: rotate(0deg);}
+  100% {filter: grayscale(100%); transform: rotate(360deg);}
 }
 
 img {
@@ -49,6 +59,8 @@ img {
   border: double 5px white;
   border-radius: 25px;
   box-shadow: 3px 3px 10px white;
+  animation-name: img-animation;
+  animation-duration: 5s;
 }
 
 section {
