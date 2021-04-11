@@ -1,0 +1,73 @@
+body {
+  background-image: url("../img/lab17_background_image.jpg");
+  color:#4f5065;
+}
+
+header, nav, article, aside, footer {
+  background-color:rgba(255,255,255,0.5);
+  border: double 5px white;
+  margin: 20px;
+  padding: 20px;
+}
+
+div#content {
+  height: 100vh;
+}
+
+main {
+  float: left;
+  clear: left;
+  width: 75%;
+  height: 100vh;
+  flex-direction: column;
+}
+
+div#title_and_summary {
+  height: 70vh;
+}
+
+header {
+  float: left;
+  width: 13%;
+  height: 60vh;
+}
+
+h1 {
+  transform: rotate(-90deg);
+  text-align: center;
+  margin-top: 23vh;
+}
+
+article {
+  float: right;
+  margin-left: 0px;
+  width: 70%;
+  height: 60vh;
+}
+
+div#sidebar {
+  float: right;
+  clear: right;
+  width: 25%;
+}
+
+aside {
+  height: 60%;
+}
+
+a {
+  color: #4f5065;
+  text-align: center;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+p#contact-info {
+  display: inline;
+  margin-right: 50px
+}

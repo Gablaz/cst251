@@ -1,0 +1,21 @@
+body {
+  background-image: url("../img/lab17_background_image.jpg");
+  color:#4f5065;
+}
+
+header, nav, article, aside, footer {
+  border: double 5px white;
+  background-color:rgba(255,255,255,0.5);
+  margin: 20px;
+  padding: 20px;
+}
+
+a {
+  color:#4f5065;
+  text-decoration: none;
+}
+
+img {
+  width: 100px;
+  margin: 20px;
+}
