@@ -1,0 +1,65 @@
+body {
+  background-image:linear-gradient(#1f496f, #d7e0e7);
+  color: #1f496f;
+}
+
+header, nav, article, aside, footer, div#images {
+  border: double 5px white;
+  background-color:rgba(255,255,255,0.5);
+  box-shadow: 3px 3px 10px #ffffff70;
+  margin: 20px;
+  padding: 20px;
+}
+
+div#images {
+  display: flex;
+  justify-content: center;
+}
+
+img#cherryblossom {
+  margin: 20px;
+  width: 25%;
+}
+
+main {
+  float: left;
+  clear: left;
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+}
+
+div#sidebar {
+  width: 30%;
+  float: right;
+  clear: right;
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  text-align: center;
+}
+
+a {
+  color: #1f496f;
+  text-align: center;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+p#contact-info {
+  display: inline;
+  margin-right: 30px
+}
+
+@media screen and (max-width:600px) {
+  main, div#sidebar {
+    width:100%;
+  }
+}
