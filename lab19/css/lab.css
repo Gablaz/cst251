@@ -1,0 +1,25 @@
+body {
+  background-image:url("../img/lab19_background-image.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: #1f496f;
+}
+
+header, nav, article, aside, div#images {
+  border: double 5px white;
+  background-color:rgba(255,255,255,0.5);
+  box-shadow: 3px 3px 10px #ffffff70;
+  margin: 20px;
+  padding: 20px;
+}
+
+
+aside {
+  margin-left: 0px;
+}
+
+img {
+  margin: 17px;
+  width: 21vw;
+}
